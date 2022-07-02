@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Cronometro from "../componentes/cronometro";
-import Formulario from "../componentes/Formulario";
+import Formulario from "../componentes/formulario";
 import Lista from "../componentes/lista";
 import { ITarefa } from "../types/tarefa";
 import style from "./App.module.scss";
