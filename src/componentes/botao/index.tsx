@@ -1,5 +1,5 @@
 import React from "react";
-import style from  './botao.module.scss';
+import style from  './Botao.module.scss';
 
 interface Props{
     type?: "button" | "submit" | "reset" | undefined,
