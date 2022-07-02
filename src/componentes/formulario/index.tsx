@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ITarefa } from "../../types/tarefa";
 import Botao from "../botao";
-import style from "./Formulario.module.scss";
+import style from "./formulario.module.scss";
 import { v4 as uuidv4 } from "uuid";
 
 interface Props {
