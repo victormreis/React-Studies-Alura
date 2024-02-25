@@ -27,7 +27,9 @@ function Cronometro({selecionado, finalizarTarefa}: CronometroProps) {
 				return começarCronometro(contador - 1);
 			}
 			finalizarTarefa();
-      audioRef.current?.play()
+      if(audioRef.current){
+        audioRef.current.play()
+      }
 		}, 1000);
 	}
 
