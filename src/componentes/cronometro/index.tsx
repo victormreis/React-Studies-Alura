@@ -40,7 +40,7 @@ function Cronometro({selecionado, finalizarTarefa}: CronometroProps) {
 				<Relogio tempo={tempo} />
 			</div>
 			<Botao handleOnClick={() => começarCronometro(tempo)}>Começar</Botao>
-      <audio ref={audioRef} src="../../../public/beep.mp3" autoPlay={false} />
+      <audio ref={audioRef} src="/beep.mp3" autoPlay={false} />
 		</div>
 	);
 }
